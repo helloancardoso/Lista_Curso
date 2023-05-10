@@ -1,8 +1,10 @@
-package devandroid.helloan.applistacurso;
+package devandroid.helloan.applistacurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.helloan.applistacurso.R;
 
 public class MainActivity extends AppCompatActivity {
 
