@@ -13,13 +13,13 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_telefone_contato"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editnomecurso"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/editnomecurso" />
 
-     <EditText
+    <EditText
         android:id="@+id/editnomecurso"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -80,13 +80,13 @@
         android:id="@+id/btnlimpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="52dp"
         android:text="@string/txt_button_limpar"
         app:layout_constraintBottom_toTopOf="@+id/btnfinalizar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txttelfonecontato"
-        app:layout_constraintVertical_bias="0.934" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <Button
         android:id="@+id/btnsalvar"
@@ -102,7 +102,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txttelfonecontato"
         app:layout_constraintVertical_bias="0.933" />
 
-    <Button
+     <Button
         android:id="@+id/btnfinalizar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
