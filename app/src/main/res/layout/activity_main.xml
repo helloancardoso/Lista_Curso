@@ -15,9 +15,11 @@
         android:hint="@string/txt_hint_edit_telefone_contato"
         android:importantForAutofill="no"
         android:inputType="text"
+        android:textColorHint="#8D6E63"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editnomecurso" />
+        app:layout_constraintTop_toBottomOf="@+id/editnomecurso"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/editnomecurso"
@@ -29,10 +31,12 @@
         android:hint="@string/txt_hint_edit_nome_do_curso"
         android:importantForAutofill="no"
         android:inputType="text"
+        android:textColorHint="#8D6E63"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editsobrenome" />
+        app:layout_constraintTop_toBottomOf="@+id/editsobrenome"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/editsobrenome"
@@ -47,7 +51,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editprimeironome" />
+        app:layout_constraintTop_toBottomOf="@+id/editprimeironome"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <TextView
         android:id="@+id/txttitulo"
@@ -74,7 +79,8 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txttitulo" />
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/btnlimpar"
@@ -83,10 +89,11 @@
         android:layout_marginStart="4dp"
         android:layout_marginBottom="52dp"
         android:text="@string/txt_button_limpar"
+        android:textColor="#311B92"
         app:layout_constraintBottom_toTopOf="@+id/btnfinalizar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txttelfonecontato"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.927" />
 
     <Button
         android:id="@+id/btnsalvar"
@@ -95,6 +102,7 @@
         android:layout_marginStart="156dp"
         android:layout_marginBottom="52dp"
         android:text="@string/txt_button_salvar"
+        android:textColor="#311B92"
         app:layout_constraintBottom_toTopOf="@+id/btnfinalizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.867"
@@ -102,17 +110,19 @@
         app:layout_constraintTop_toBottomOf="@+id/txttelfonecontato"
         app:layout_constraintVertical_bias="0.933" />
 
-     <Button
+    <Button
         android:id="@+id/btnfinalizar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="20dp"
         android:layout_marginBottom="220dp"
         android:text="@string/txt_button_finalizar"
+        android:textColor="#311B92"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txttelfonecontato"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="0.659"
+        tools:ignore="VisualLintButtonSize" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
